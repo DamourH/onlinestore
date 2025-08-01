@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Authority",
+        "createOrEditLabel": "Lisa või muuda Authority",
+        "notFound": "Ei leitud ühtegi Authorities"
+      },
+      "created": "Uus Authority on loodud identifikaatoriga {{ param }}",
+      "updated": "Authority identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Authority identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

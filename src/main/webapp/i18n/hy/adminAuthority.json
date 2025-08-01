@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Authority",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Authority",
+        "notFound": "No Authorities found"
+      },
+      "created": "Նոր Authority ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Authority թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Authority հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

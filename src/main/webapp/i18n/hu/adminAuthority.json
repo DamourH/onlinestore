@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Authority létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Authorityt",
+        "notFound": "No Authorities found"
+      },
+      "created": "Egy új Authority lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Authority módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Authority törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Authorityt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

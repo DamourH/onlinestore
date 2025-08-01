@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור חדש Authority",
+        "createOrEditLabel": "צור או ערוך Authority",
+        "notFound": "לא נמצאו Authorities"
+      },
+      "created": "Authority חדש נוצר עם מזהה {{ param }}",
+      "updated": "Authority עודכן עם מזהה {{ param }}",
+      "deleted": "Authority נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

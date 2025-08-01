@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Authority baru",
+        "createOrEditLabel": "Buat atau edit Authority",
+        "notFound": "No Authorities found"
+      },
+      "created": "Authority dengan id {{ param }} telah dibuat",
+      "updated": "Authority dengan id {{ param }} telah diperbaharui",
+      "deleted": "Authority dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

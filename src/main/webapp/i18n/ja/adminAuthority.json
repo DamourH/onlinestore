@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "リストの更新",
+        "createLabel": "Authority の作成",
+        "createOrEditLabel": "Authorityの作成または編集",
+        "notFound": "Authorities が見つかりません。"
+      },
+      "created": "新しい Authority がID {{ param }} で作成されました。",
+      "updated": "ID {{ param }} の Authority が更新されました。",
+      "deleted": "ID {{ param }} の Authority が削除されました。",
+      "delete": {
+        "question": "Authority {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "สร้าง Authority",
+        "createOrEditLabel": "สร้างหรือแก้ไข Authority",
+        "notFound": "No Authorities found"
+      },
+      "created": "Authority ถูกสร้างด้วย {{ param }}",
+      "updated": "Authority ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Authority ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

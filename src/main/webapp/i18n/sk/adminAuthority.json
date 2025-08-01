@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Pridať Authority",
+        "createOrEditLabel": "Pridať alebo upraviť Authority",
+        "notFound": "No Authorities found"
+      },
+      "created": "Bol vytvorený potomok entity Authority s identifikátorom {{ param }}",
+      "updated": "Potomok entity Authority s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Authority s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

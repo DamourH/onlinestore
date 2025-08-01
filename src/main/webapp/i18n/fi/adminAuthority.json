@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Authority",
+        "createOrEditLabel": "Luo tai muokkaa Authority",
+        "notFound": "Authority ei löytynyt"
+      },
+      "created": "Uusi Authority on luotu, id: {{ param }}",
+      "updated": "Authority on päivitetty, id: {{ param }}",
+      "deleted": "Authority on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

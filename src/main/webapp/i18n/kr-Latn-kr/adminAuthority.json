@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Jańa Authority qosıw",
+        "createOrEditLabel": "Authoritydi redaktorlaw",
+        "notFound": "No Authorities found"
+      },
+      "created": "Authority {{ param }} menen qosıldı",
+      "updated": "{{ param }}- Authority saqlandı",
+      "deleted": "{{ param }}- Authority óshirildi",
+      "delete": {
+        "question": "{{ id }}- Authority tı óshirejaqsizba?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

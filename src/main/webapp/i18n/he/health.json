@@ -1,0 +1,33 @@
+{
+  "health": {
+    "title": "בדיקות תקינות",
+    "refresh.button": "רענן",
+    "stacktrace": "עקבת שגיאה (Stacktrace)",
+    "details": {
+      "details": "פרטים",
+      "properties": "מאפיינים",
+      "name": "שם",
+      "value": "ערך",
+      "error": "שגיאה"
+    },
+    "indicator": {
+      "diskSpace": "שטח דיסק",
+      "mail": "דוא\"ל",
+      "livenessState": "מצב חיוניות (Liveness)",
+      "readinessState": "מצב מוכנות (Readiness)",
+      "ping": "אפליקציה",
+      "elasticsearch": "Elasticsearch",
+      "db": "מסד נתונים"
+    },
+    "table": {
+      "service": "שם השירות",
+      "status": "מצב"
+    },
+    "status": {
+      "UNKNOWN": "לא ידוע",
+      "UP": "פעיל",
+      "OUT_OF_SERVICE": "לא זמין",
+      "DOWN": "מושבת"
+    }
+  }
+}

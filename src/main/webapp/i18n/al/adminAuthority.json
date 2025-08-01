@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Krijo një të ri Authority",
+        "createOrEditLabel": "Krijo ose përpuno një Authority",
+        "notFound": "No Authorities found"
+      },
+      "created": "Një Authority i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Authority u përpunua me identifikues {{ param }}",
+      "deleted": "Një Authority u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

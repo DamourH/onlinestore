@@ -1,0 +1,33 @@
+{
+  "health": {
+    "title": "Stan usług",
+    "refresh.button": "Odśwież",
+    "stacktrace": "Stos wywołań",
+    "details": {
+      "details": "Szczegóły",
+      "properties": "Właściwości",
+      "name": "Nazwa",
+      "value": "Wartość",
+      "error": "Błąd"
+    },
+    "indicator": {
+      "diskSpace": "Przestrzeń dyskowa",
+      "mail": "Email",
+      "livenessState": "Stan żywotności",
+      "readinessState": "Stan gotowości",
+      "ping": "Application",
+      "elasticsearch": "Elasticsearch",
+      "db": "Baza danych"
+    },
+    "table": {
+      "service": "Nazwa usługi",
+      "status": "Status"
+    },
+    "status": {
+      "UNKNOWN": "NIEZNANY",
+      "UP": "DOSTĘPNA",
+      "OUT_OF_SERVICE": "WYŁĄCZONE Z UŻYTKU",
+      "DOWN": "NIEDOSTĘPNA"
+    }
+  }
+}

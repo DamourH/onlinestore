@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Янги Authority қўшиш",
+        "createOrEditLabel": "Authorityни таҳрирлаш",
+        "notFound": "No Authorities found"
+      },
+      "created": "Authority {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Authority сақланди.",
+      "deleted": "{{ param }}- Authority ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Authorityни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

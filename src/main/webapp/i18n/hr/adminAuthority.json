@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreirati Authority",
+        "createOrEditLabel": "Kreirati ili urediti Authority",
+        "notFound": "Nije nađeno Authorities"
+      },
+      "created": "Kreiran je Authority sa identifikatorom {{ param }}",
+      "updated": "Ažuriran je Authority sa identifikatorom {{ param }}",
+      "deleted": "Obrisan je Authority sa identifikatorom {{ param }}",
+      "delete": {
+        "question": "Da li ste sigurni da želite obrisati Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

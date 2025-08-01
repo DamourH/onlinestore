@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authority",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Authority",
+        "createOrEditLabel": "Dodaj lub edytuj: Authority",
+        "notFound": "No Authorities found"
+      },
+      "created": "Utworzono nowy obiekt typu Authority z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Authority z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Authority z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

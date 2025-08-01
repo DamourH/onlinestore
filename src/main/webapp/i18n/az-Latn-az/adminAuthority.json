@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Siyahını yenilə",
+        "createLabel": "Yeni Authority əlavə et",
+        "createOrEditLabel": "Yeni Authority əlavə et və ya yenilə",
+        "notFound": "Authorities məlumatı tapılmadı"
+      },
+      "created": "{{ param }} ID ilə bir Authority əlavə edildi",
+      "updated": "{{ param }} nolu Authority dəyişildi",
+      "deleted": "{{ param }} nolu Authority silindi",
+      "delete": {
+        "question": "{{ id }} nolu Authority silinəcək. Davam etmək istəyirsiniz?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

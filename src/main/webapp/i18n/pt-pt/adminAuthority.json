@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Authority",
+        "createOrEditLabel": "Criar ou editar Authority",
+        "notFound": "Nenhum Authorities encontrado"
+      },
+      "created": "Um novo Authority foi criado com o identificador {{ param }}",
+      "updated": "Authority com identificador {{ param }} foi actualizado",
+      "deleted": "Authority com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Authority {{ id }}?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}

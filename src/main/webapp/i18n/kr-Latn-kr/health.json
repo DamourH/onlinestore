@@ -1,0 +1,33 @@
+{
+  "health": {
+    "title": "Xalati",
+    "refresh.button": "Jańala",
+    "stacktrace": "Stacktrace",
+    "details": {
+      "details": "Tolıq",
+      "properties": "Parametrleri",
+      "name": "Atı",
+      "value": "Ma`nisi",
+      "error": "Qátelik"
+    },
+    "indicator": {
+      "diskSpace": "Disktaǵı orin",
+      "mail": "Email",
+      "livenessState": "Liveness state",
+      "readinessState": "Readiness state",
+      "ping": "Application",
+      "elasticsearch": "Elasticsearch",
+      "db": "Ma`lumotlar bazasi"
+    },
+    "table": {
+      "service": "Servis",
+      "status": "Xalat"
+    },
+    "status": {
+      "UNKNOWN": "UNKNOWN",
+      "UP": "Aktiv",
+      "OUT_OF_SERVICE": "OUT_OF_SERVICE",
+      "DOWN": "Aktiv emes"
+    }
+  }
+}

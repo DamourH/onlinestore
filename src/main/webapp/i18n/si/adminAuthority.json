@@ -1,0 +1,23 @@
+{
+  "storeApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "නව Authority එකක් සාදන්න",
+        "createOrEditLabel": "Authority සාදන්න හෝ සංස්කරණය කරන්න",
+        "notFound": "Authorities හමු නොවීය"
+      },
+      "created": "{{ param }} හඳුනාගැනීමෙන් නව Authority සාදනු ලැබේ",
+      "updated": "{{ param }} හඳුනාගැනීමෙන් Authority යාවත්කාලීන වේ",
+      "deleted": "{{ param }} හඳුනාගැනීමෙන් Authority මකා දමනු ලැබේ",
+      "delete": {
+        "question": "Authority {{ id }} මකා දැමීමට ඔබට විශ්වාසද?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}
