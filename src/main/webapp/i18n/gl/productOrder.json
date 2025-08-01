@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "ProductOrders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Crear novo Product Order",
+        "createOrEditLabel": "Crear ou editar Product Order",
+        "search": "Search for Product Order",
+        "notFound": "No Product Orders found"
+      },
+      "created": "Un novo Product Order foi creado co identificador {{ param }}",
+      "updated": "Un Product Order foi actualizado co identificador {{ param }}",
+      "deleted": "Un Product Order foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Product Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

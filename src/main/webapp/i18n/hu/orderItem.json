@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "OrderItems",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Order Item létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Order Itemt",
+        "search": "Order Item keresése",
+        "notFound": "No Order Items found"
+      },
+      "created": "Egy új Order Item lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Order Item módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Order Item törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Order Itemt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

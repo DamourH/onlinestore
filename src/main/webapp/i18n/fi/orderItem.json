@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Order Item",
+        "createOrEditLabel": "Luo tai muokkaa Order Item",
+        "search": "Etsi Order Item",
+        "notFound": "Order Item ei löytynyt"
+      },
+      "created": "Uusi Order Item on luotu, id: {{ param }}",
+      "updated": "Order Item on päivitetty, id: {{ param }}",
+      "deleted": "Order Item on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Order Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

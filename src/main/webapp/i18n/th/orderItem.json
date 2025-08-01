@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "สร้าง Order Item",
+        "createOrEditLabel": "สร้างหรือแก้ไข Order Item",
+        "search": "ค้นหา Order Item",
+        "notFound": "No Order Items found"
+      },
+      "created": "Order Item ถูกสร้างด้วย {{ param }}",
+      "updated": "Order Item ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Order Item ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Order Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

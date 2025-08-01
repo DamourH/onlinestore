@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Invoice جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Invoice",
+        "search": "البحث عن Invoice",
+        "notFound": "لم يتم العثور على Invoices"
+      },
+      "created": "Invoice جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Invoice تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Invoice تم حذفه بالمعرف {{ param }}",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Invoice {{ id }}؟"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

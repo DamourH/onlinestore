@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור חדש Invoice",
+        "createOrEditLabel": "צור או ערוך Invoice",
+        "search": "חפש Invoice",
+        "notFound": "לא נמצאו Invoices"
+      },
+      "created": "Invoice חדש נוצר עם מזהה {{ param }}",
+      "updated": "Invoice עודכן עם מזהה {{ param }}",
+      "deleted": "Invoice נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את Invoice {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

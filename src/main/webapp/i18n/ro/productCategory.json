@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Product Category",
+        "createOrEditLabel": "Creeare sau editare Product Category",
+        "search": "Căutare după Product Category",
+        "notFound": "No Product Categories found"
+      },
+      "created": "A fost creată o nouă entitate Product Category cu identificatorul {{ param }}",
+      "updated": "Product Category cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Product Category cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

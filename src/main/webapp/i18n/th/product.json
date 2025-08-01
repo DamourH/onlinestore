@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "สร้าง Product",
+        "createOrEditLabel": "สร้างหรือแก้ไข Product",
+        "search": "ค้นหา Product",
+        "notFound": "No Products found"
+      },
+      "created": "Product ถูกสร้างด้วย {{ param }}",
+      "updated": "Product ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Product ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Product {{ id }}?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

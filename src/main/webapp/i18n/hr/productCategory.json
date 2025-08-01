@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreirati Product Category",
+        "createOrEditLabel": "Kreirati ili urediti Product Category",
+        "search": "Tražiti Product Category",
+        "notFound": "Nije nađeno Product Categories"
+      },
+      "created": "Kreiran je Product Category sa identifikatorom {{ param }}",
+      "updated": "Ažuriran je Product Category sa identifikatorom {{ param }}",
+      "deleted": "Obrisan je Product Category sa identifikatorom {{ param }}",
+      "delete": {
+        "question": "Da li ste sigurni da želite obrisati Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Krijo një të ri Customer",
+        "createOrEditLabel": "Krijo ose përpuno një Customer",
+        "search": "Kërko për Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "Një Customer i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Customer u përpunua me identifikues {{ param }}",
+      "deleted": "Një Customer u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

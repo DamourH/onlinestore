@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "建立一筆新的 Shipment",
+        "createOrEditLabel": "建立或編輯 Shipment",
+        "search": "搜尋 Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "新的 Shipment 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Shipment 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Shipment 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Shipment {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

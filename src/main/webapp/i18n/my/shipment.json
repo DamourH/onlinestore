@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Shipment အသစ်ထည့်မည်",
+        "createOrEditLabel": "Shipment အသစ်ထည့်ခြင်း (သို့) ပြုပြင်ခြင်း",
+        "search": "ရှာဖွေရန် Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "{{ param }} အိုင်ဒီဖြင့် Shipment အသစ်တစ်ခုအား ထည့်ပြီးပါပြီ။",
+      "updated": "{{ param }} အိုင်ဒီဖြင့် Shipment တစ်ခုအား ပြုပြင်ပြီးပါပြီ။",
+      "deleted": "{{ param }} အိုင်ဒီဖြင့် Shipment တစ်ခုအား ဖျက်ပြီးပါပြီ။",
+      "delete": {
+        "question": "Shipment {{ id }} အား ဖျက်ပါမည်။ သေချာပါသလား?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

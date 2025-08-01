@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Krijo një të ri Product Category",
+        "createOrEditLabel": "Krijo ose përpuno një Product Category",
+        "search": "Kërko për Product Category",
+        "notFound": "No Product Categories found"
+      },
+      "created": "Një Product Category i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Product Category u përpunua me identifikues {{ param }}",
+      "deleted": "Një Product Category u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

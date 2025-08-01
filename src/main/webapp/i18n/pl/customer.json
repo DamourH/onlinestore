@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customer",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Customer",
+        "createOrEditLabel": "Dodaj lub edytuj: Customer",
+        "search": "Szukaj Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "Utworzono nowy obiekt typu Customer z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Customer z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Customer z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

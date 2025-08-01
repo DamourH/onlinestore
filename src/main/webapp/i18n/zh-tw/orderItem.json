@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "建立一筆新的 Order Item",
+        "createOrEditLabel": "建立或編輯 Order Item",
+        "search": "搜尋 Order Item",
+        "notFound": "No Order Items found"
+      },
+      "created": "新的 Order Item 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Order Item 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Order Item 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Order Item {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

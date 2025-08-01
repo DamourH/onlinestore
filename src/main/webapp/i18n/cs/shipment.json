@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Shipment",
+        "createOrEditLabel": "Vytvořit nebo upravit Shipment",
+        "search": "Vyhledat Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "Byl vytvořen potomek entity Shipment s identifikátorem {{ param }}",
+      "updated": "Potomek entity Shipment s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Shipment s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Customer तयार करा",
+        "createOrEditLabel": "Customer तयार किंवा संपादित करा",
+        "search": "Customer शोधा",
+        "notFound": "No Customers found"
+      },
+      "created": "Customer [identifier: {{ param }}] तयार आहे",
+      "updated": "Customer [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Customer [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Customer [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

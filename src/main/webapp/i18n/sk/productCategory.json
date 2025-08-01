@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Pridať Product Category",
+        "createOrEditLabel": "Pridať alebo upraviť Product Category",
+        "search": "Vyhľadať Product Category",
+        "notFound": "No Product Categories found"
+      },
+      "created": "Bol vytvorený potomok entity Product Category s identifikátorom {{ param }}",
+      "updated": "Potomok entity Product Category s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Product Category s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

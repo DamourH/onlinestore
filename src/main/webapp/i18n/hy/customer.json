@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Customer",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Customer",
+        "search": "Գտնել Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "Նոր Customer ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Customer թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Customer հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

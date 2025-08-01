@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "ProductOrders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Product Order बनाएँ",
+        "createOrEditLabel": "Product Order बनाएँ या संपादित करें",
+        "search": "Product Order खोजें",
+        "notFound": "No Product Orders found"
+      },
+      "created": "एक नया Product Order [identifier: {{ param }}] तैयार है",
+      "updated": "एक Product Order [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Product Order [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Product Order [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

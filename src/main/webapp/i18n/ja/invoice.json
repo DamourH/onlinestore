@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "リストの更新",
+        "createLabel": "Invoice の作成",
+        "createOrEditLabel": "Invoiceの作成または編集",
+        "search": "Invoice の検索",
+        "notFound": "Invoices が見つかりません。"
+      },
+      "created": "新しい Invoice がID {{ param }} で作成されました。",
+      "updated": "ID {{ param }} の Invoice が更新されました。",
+      "deleted": "ID {{ param }} の Invoice が削除されました。",
+      "delete": {
+        "question": "Invoice {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

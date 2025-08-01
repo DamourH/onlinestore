@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Pridať Invoice",
+        "createOrEditLabel": "Pridať alebo upraviť Invoice",
+        "search": "Vyhľadať Invoice",
+        "notFound": "No Invoices found"
+      },
+      "created": "Bol vytvorený potomok entity Invoice s identifikátorom {{ param }}",
+      "updated": "Potomok entity Invoice s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Invoice s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Invoice {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

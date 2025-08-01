@@ -1,0 +1,72 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    @if (product(); as productRef) {
+      <div>
+        <h2 data-cy="productDetailsHeading"><span jhiTranslate="storeApp.product.detail.title">Product</span></h2>
+
+        <hr />
+
+        <jhi-alert-error />
+
+        <jhi-alert />
+
+        <dl class="row-md jh-entity-details">
+          <dt><span jhiTranslate="global.field.id">ID</span></dt>
+          <dd>
+            <span>{{ productRef.id }}</span>
+          </dd>
+          <dt><span jhiTranslate="storeApp.product.name">Name</span></dt>
+          <dd>
+            <span>{{ productRef.name }}</span>
+          </dd>
+          <dt><span jhiTranslate="storeApp.product.description">Description</span></dt>
+          <dd>
+            <span>{{ productRef.description }}</span>
+          </dd>
+          <dt><span jhiTranslate="storeApp.product.price">Price</span></dt>
+          <dd>
+            <span>{{ productRef.price }}</span>
+          </dd>
+          <dt><span jhiTranslate="storeApp.product.prosuctSize">Prosuct Size</span></dt>
+          <dd>
+            <span [jhiTranslate]="'storeApp.Size.' + (productRef.prosuctSize ?? 'null')">{{
+              { null: '', S: 'S', M: 'M', L: 'L', XL: 'XL', XXL: 'XXL' }[productRef.prosuctSize ?? 'null']
+            }}</span>
+          </dd>
+          <dt><span jhiTranslate="storeApp.product.image">Image</span></dt>
+          <dd>
+            @if (productRef.image) {
+              <div>
+                <a (click)="openFile(productRef.image ?? '', productRef.imageContentType)">
+                  <img
+                    [src]="'data:' + productRef.imageContentType + ';base64,' + productRef.image"
+                    style="max-width: 100%"
+                    alt="product"
+                  />
+                </a>
+                {{ productRef.imageContentType }}, {{ byteSize(productRef.image ?? '') }}
+              </div>
+            }
+          </dd>
+          <dt><span jhiTranslate="storeApp.product.productCategory">Product Category</span></dt>
+          <dd>
+            @for (productCategory of productRef.productCategories; track $index; let last = $last) {
+              <span>
+                <a [routerLink]="['/product-category', productCategory.id, 'view']">{{ productCategory?.id }}</a
+                >{{ last ? '' : ', ' }}
+              </span>
+            }
+          </dd>
+        </dl>
+
+        <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+          <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+        </button>
+
+        <button type="button" [routerLink]="['/product', productRef.id, 'edit']" class="btn btn-primary">
+          <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+        </button>
+      </div>
+    }
+  </div>
+</div>

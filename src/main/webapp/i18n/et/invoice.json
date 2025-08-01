@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Invoice",
+        "createOrEditLabel": "Lisa või muuda Invoice",
+        "search": "Otsi Invoice",
+        "notFound": "Ei leitud ühtegi Invoices"
+      },
+      "created": "Uus Invoice on loodud identifikaatoriga {{ param }}",
+      "updated": "Invoice identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Invoice identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Invoice {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

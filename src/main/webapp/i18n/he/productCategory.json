@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור חדש Product Category",
+        "createOrEditLabel": "צור או ערוך Product Category",
+        "search": "חפש Product Category",
+        "notFound": "לא נמצאו Product Categories"
+      },
+      "created": "Product Category חדש נוצר עם מזהה {{ param }}",
+      "updated": "Product Category עודכן עם מזהה {{ param }}",
+      "deleted": "Product Category נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

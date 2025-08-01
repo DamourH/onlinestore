@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreiraj novi Customer",
+        "createOrEditLabel": "Kreirajte ili izmenite Customer",
+        "search": "Potražite Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "Kreiran je novi Customer pod nazivom {{ param }}",
+      "updated": "Customer pod nazivom {{ param }} je ažuriran",
+      "deleted": "Customer pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Customer pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Shipment",
+        "createOrEditLabel": "Creeare sau editare Shipment",
+        "search": "Căutare după Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "A fost creată o nouă entitate Shipment cu identificatorul {{ param }}",
+      "updated": "Shipment cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Shipment cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

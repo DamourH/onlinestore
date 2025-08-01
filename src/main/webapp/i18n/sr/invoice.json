@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreiraj novi Invoice",
+        "createOrEditLabel": "Kreirajte ili izmenite Invoice",
+        "search": "Potražite Invoice",
+        "notFound": "No Invoices found"
+      },
+      "created": "Kreiran je novi Invoice pod nazivom {{ param }}",
+      "updated": "Invoice pod nazivom {{ param }} je ažuriran",
+      "deleted": "Invoice pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Invoice pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

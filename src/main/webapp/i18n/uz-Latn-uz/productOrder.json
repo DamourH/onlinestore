@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Product Order qo`shish",
+        "createOrEditLabel": "Product Orderni tahrirlash",
+        "search": "Product Orderni izlash",
+        "notFound": "No Product Orders found"
+      },
+      "created": "Product Order {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Product Order saqlandi",
+      "deleted": "{{ param }}- Product Order o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Product Orderni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

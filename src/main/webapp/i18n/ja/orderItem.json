@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "OrderItems",
+        "refreshListLabel": "リストの更新",
+        "createLabel": "Order Item の作成",
+        "createOrEditLabel": "Order Itemの作成または編集",
+        "search": "Order Item の検索",
+        "notFound": "Order Items が見つかりません。"
+      },
+      "created": "新しい Order Item がID {{ param }} で作成されました。",
+      "updated": "ID {{ param }} の Order Item が更新されました。",
+      "deleted": "ID {{ param }} の Order Item が削除されました。",
+      "delete": {
+        "question": "Order Item {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

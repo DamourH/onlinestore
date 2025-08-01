@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Order Item",
+        "createOrEditLabel": "Vytvořit nebo upravit Order Item",
+        "search": "Vyhledat Order Item",
+        "notFound": "No Order Items found"
+      },
+      "created": "Byl vytvořen potomek entity Order Item s identifikátorem {{ param }}",
+      "updated": "Potomek entity Order Item s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Order Item s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Order Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

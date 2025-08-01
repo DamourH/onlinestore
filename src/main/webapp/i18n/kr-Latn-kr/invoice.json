@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Jańa Invoice qosıw",
+        "createOrEditLabel": "Invoicedi redaktorlaw",
+        "search": "Invoice izlew",
+        "notFound": "No Invoices found"
+      },
+      "created": "Invoice {{ param }} menen qosıldı",
+      "updated": "{{ param }}- Invoice saqlandı",
+      "deleted": "{{ param }}- Invoice óshirildi",
+      "delete": {
+        "question": "{{ id }}- Invoice tı óshirejaqsizba?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

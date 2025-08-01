@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Product erstellen",
+        "createOrEditLabel": "Product erstellen oder bearbeiten",
+        "search": "Suche nach Product",
+        "notFound": "Keine Products gefunden"
+      },
+      "created": "Product erstellt mit ID {{ param }}",
+      "updated": "Product aktualisiert mit ID {{ param }}",
+      "deleted": "Product gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Product {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Krijo një të ri Product",
+        "createOrEditLabel": "Krijo ose përpuno një Product",
+        "search": "Kërko për Product",
+        "notFound": "No Products found"
+      },
+      "created": "Një Product i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Product u përpunua me identifikues {{ param }}",
+      "deleted": "Një Product u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Product {{ id }}?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

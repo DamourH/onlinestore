@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "สร้าง Customer",
+        "createOrEditLabel": "สร้างหรือแก้ไข Customer",
+        "search": "ค้นหา Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "Customer ถูกสร้างด้วย {{ param }}",
+      "updated": "Customer ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Customer ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

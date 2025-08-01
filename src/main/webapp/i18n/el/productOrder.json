@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Product Order",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Product Order",
+        "search": "Αναζήτηση για Product Order",
+        "notFound": "No Product Orders found"
+      },
+      "created": "Ένα νέο Product Order έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Product Order έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Product Order έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Product Order {{ id }};"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Product",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Product",
+        "search": "Αναζήτηση για Product",
+        "notFound": "No Products found"
+      },
+      "created": "Ένα νέο Product έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Product έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Product έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Product {{ id }};"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

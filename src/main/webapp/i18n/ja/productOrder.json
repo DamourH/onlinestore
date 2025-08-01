@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "ProductOrders",
+        "refreshListLabel": "リストの更新",
+        "createLabel": "Product Order の作成",
+        "createOrEditLabel": "Product Orderの作成または編集",
+        "search": "Product Order の検索",
+        "notFound": "Product Orders が見つかりません。"
+      },
+      "created": "新しい Product Order がID {{ param }} で作成されました。",
+      "updated": "ID {{ param }} の Product Order が更新されました。",
+      "deleted": "ID {{ param }} の Product Order が削除されました。",
+      "delete": {
+        "question": "Product Order {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

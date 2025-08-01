@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Customer qo`shish",
+        "createOrEditLabel": "Customerni tahrirlash",
+        "search": "Customerni izlash",
+        "notFound": "No Customers found"
+      },
+      "created": "Customer {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Customer saqlandi",
+      "deleted": "{{ param }}- Customer o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Customerni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Jańa Product qosıw",
+        "createOrEditLabel": "Productdi redaktorlaw",
+        "search": "Product izlew",
+        "notFound": "No Products found"
+      },
+      "created": "Product {{ param }} menen qosıldı",
+      "updated": "{{ param }}- Product saqlandı",
+      "deleted": "{{ param }}- Product óshirildi",
+      "delete": {
+        "question": "{{ id }}- Product tı óshirejaqsizba?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

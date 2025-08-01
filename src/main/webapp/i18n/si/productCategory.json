@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "නව Product Category එකක් සාදන්න",
+        "createOrEditLabel": "Product Category සාදන්න හෝ සංස්කරණය කරන්න",
+        "search": "Product Category සඳහා සොයන්න",
+        "notFound": "Product Categories හමු නොවීය"
+      },
+      "created": "{{ param }} හඳුනාගැනීමෙන් නව Product Category සාදනු ලැබේ",
+      "updated": "{{ param }} හඳුනාගැනීමෙන් Product Category යාවත්කාලීන වේ",
+      "deleted": "{{ param }} හඳුනාගැනීමෙන් Product Category මකා දමනු ලැබේ",
+      "delete": {
+        "question": "Product Category {{ id }} මකා දැමීමට ඔබට විශ්වාසද?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

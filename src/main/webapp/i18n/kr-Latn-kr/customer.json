@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Jańa Customer qosıw",
+        "createOrEditLabel": "Customerdi redaktorlaw",
+        "search": "Customer izlew",
+        "notFound": "No Customers found"
+      },
+      "created": "Customer {{ param }} menen qosıldı",
+      "updated": "{{ param }}- Customer saqlandı",
+      "deleted": "{{ param }}- Customer óshirildi",
+      "delete": {
+        "question": "{{ id }}- Customer tı óshirejaqsizba?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

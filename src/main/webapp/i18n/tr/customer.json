@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Customer ekle",
+        "createOrEditLabel": "Yeni Customer ekle veya guncelle",
+        "search": "Customer ara",
+        "notFound": "Customers kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Customer eklendi",
+      "updated": "{{ param }} nolu Customer guncellendi",
+      "deleted": "{{ param }} nolu Customer silindi",
+      "delete": {
+        "question": "{{ id }} nolu Customer silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

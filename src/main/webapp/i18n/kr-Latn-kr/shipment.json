@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Jańa Shipment qosıw",
+        "createOrEditLabel": "Shipmentdi redaktorlaw",
+        "search": "Shipment izlew",
+        "notFound": "No Shipments found"
+      },
+      "created": "Shipment {{ param }} menen qosıldı",
+      "updated": "{{ param }}- Shipment saqlandı",
+      "deleted": "{{ param }}- Shipment óshirildi",
+      "delete": {
+        "question": "{{ id }}- Shipment tı óshirejaqsizba?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Product Category ekle",
+        "createOrEditLabel": "Yeni Product Category ekle veya guncelle",
+        "search": "Product Category ara",
+        "notFound": "Product Categories kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Product Category eklendi",
+      "updated": "{{ param }} nolu Product Category guncellendi",
+      "deleted": "{{ param }} nolu Product Category silindi",
+      "delete": {
+        "question": "{{ id }} nolu Product Category silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

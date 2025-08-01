@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "リストの更新",
+        "createLabel": "Shipment の作成",
+        "createOrEditLabel": "Shipmentの作成または編集",
+        "search": "Shipment の検索",
+        "notFound": "Shipments が見つかりません。"
+      },
+      "created": "新しい Shipment がID {{ param }} で作成されました。",
+      "updated": "ID {{ param }} の Shipment が更新されました。",
+      "deleted": "ID {{ param }} の Shipment が削除されました。",
+      "delete": {
+        "question": "Shipment {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Product Order",
+        "createOrEditLabel": "Skapa eller ändra en Product Order",
+        "search": "Sök efter Product Order",
+        "notFound": "No Product Orders found"
+      },
+      "created": "En ny Product Order är skapad med id {{ param }}",
+      "updated": "En Product Order är uppdaterad med id  {{ param }}",
+      "deleted": "En Product Order är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Product Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

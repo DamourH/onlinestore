@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Shipment",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Shipment",
+        "search": "Գտնել Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "Նոր Shipment ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Shipment թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Shipment հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

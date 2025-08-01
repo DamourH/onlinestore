@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Product Order ekle",
+        "createOrEditLabel": "Yeni Product Order ekle veya guncelle",
+        "search": "Product Order ara",
+        "notFound": "Product Orders kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Product Order eklendi",
+      "updated": "{{ param }} nolu Product Order guncellendi",
+      "deleted": "{{ param }} nolu Product Order silindi",
+      "delete": {
+        "question": "{{ id }} nolu Product Order silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

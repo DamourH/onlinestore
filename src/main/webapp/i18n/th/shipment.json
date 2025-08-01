@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "สร้าง Shipment",
+        "createOrEditLabel": "สร้างหรือแก้ไข Shipment",
+        "search": "ค้นหา Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "Shipment ถูกสร้างด้วย {{ param }}",
+      "updated": "Shipment ถูกแก้ไขด้วย {{ param }}",
+      "deleted": "Shipment ถูกลบด้วย {{ param }}",
+      "delete": {
+        "question": "คุณต้องการที่จะลบ Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

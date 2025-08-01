@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Krijo një të ri Product Order",
+        "createOrEditLabel": "Krijo ose përpuno një Product Order",
+        "search": "Kërko për Product Order",
+        "notFound": "No Product Orders found"
+      },
+      "created": "Një Product Order i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Product Order u përpunua me identifikues {{ param }}",
+      "deleted": "Një Product Order u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Product Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

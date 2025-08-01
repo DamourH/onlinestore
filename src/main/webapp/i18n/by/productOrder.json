@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Стварыць новы Product Order",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Product Order",
+        "search": "Знайсці Product Order",
+        "notFound": "No Product Orders found"
+      },
+      "created": "Новы Product Order створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Product Order абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Product Order выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Product Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

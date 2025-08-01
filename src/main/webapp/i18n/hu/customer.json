@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Customer létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Customert",
+        "search": "Customer keresése",
+        "notFound": "No Customers found"
+      },
+      "created": "Egy új Customer lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Customer módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Customer törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Customert {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

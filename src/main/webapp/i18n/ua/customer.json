@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Створити новий Customer",
+        "createOrEditLabel": "Створити чи редагувати Customer",
+        "search": "Знайти Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "Новий Customer створений з ідентифікатором {{ param }}",
+      "updated": "Customer оновлений з ідентифікатором {{ param }}",
+      "deleted": "Customer видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

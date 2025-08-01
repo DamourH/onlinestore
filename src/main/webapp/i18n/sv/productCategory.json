@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Product Category",
+        "createOrEditLabel": "Skapa eller ändra en Product Category",
+        "search": "Sök efter Product Category",
+        "notFound": "No Product Categories found"
+      },
+      "created": "En ny Product Category är skapad med id {{ param }}",
+      "updated": "En Product Category är uppdaterad med id  {{ param }}",
+      "deleted": "En Product Category är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

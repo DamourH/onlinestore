@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור חדש Product Order",
+        "createOrEditLabel": "צור או ערוך Product Order",
+        "search": "חפש Product Order",
+        "notFound": "לא נמצאו Product Orders"
+      },
+      "created": "Product Order חדש נוצר עם מזהה {{ param }}",
+      "updated": "Product Order עודכן עם מזהה {{ param }}",
+      "deleted": "Product Order נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את Product Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

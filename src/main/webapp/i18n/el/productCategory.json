@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Product Category",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Product Category",
+        "search": "Αναζήτηση για Product Category",
+        "notFound": "No Product Categories found"
+      },
+      "created": "Ένα νέο Product Category έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Product Category έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Product Category έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Product Category {{ id }};"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

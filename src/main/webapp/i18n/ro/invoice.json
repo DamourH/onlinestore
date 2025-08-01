@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Invoice",
+        "createOrEditLabel": "Creeare sau editare Invoice",
+        "search": "Căutare după Invoice",
+        "notFound": "No Invoices found"
+      },
+      "created": "A fost creată o nouă entitate Invoice cu identificatorul {{ param }}",
+      "updated": "Invoice cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Invoice cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Invoice {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Product Category तयार करा",
+        "createOrEditLabel": "Product Category तयार किंवा संपादित करा",
+        "search": "Product Category शोधा",
+        "notFound": "No Product Categories found"
+      },
+      "created": "Product Category [identifier: {{ param }}] तयार आहे",
+      "updated": "Product Category [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Product Category [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Product Category [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

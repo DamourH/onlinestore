@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Product Category",
+        "createOrEditLabel": "Luo tai muokkaa Product Category",
+        "search": "Etsi Product Category",
+        "notFound": "Product Category ei löytynyt"
+      },
+      "created": "Uusi Product Category on luotu, id: {{ param }}",
+      "updated": "Product Category on päivitetty, id: {{ param }}",
+      "deleted": "Product Category on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

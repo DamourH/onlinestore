@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Янги Product Category қўшиш",
+        "createOrEditLabel": "Product Categoryни таҳрирлаш",
+        "search": "Product Categoryни излаш",
+        "notFound": "No Product Categories found"
+      },
+      "created": "Product Category {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Product Category сақланди.",
+      "deleted": "{{ param }}- Product Category ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Product Categoryни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

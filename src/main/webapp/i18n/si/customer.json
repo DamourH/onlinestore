@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "නව Customer එකක් සාදන්න",
+        "createOrEditLabel": "Customer සාදන්න හෝ සංස්කරණය කරන්න",
+        "search": "Customer සඳහා සොයන්න",
+        "notFound": "Customers හමු නොවීය"
+      },
+      "created": "{{ param }} හඳුනාගැනීමෙන් නව Customer සාදනු ලැබේ",
+      "updated": "{{ param }} හඳුනාගැනීමෙන් Customer යාවත්කාලීන වේ",
+      "deleted": "{{ param }} හඳුනාගැනීමෙන් Customer මකා දමනු ලැබේ",
+      "delete": {
+        "question": "Customer {{ id }} මකා දැමීමට ඔබට විශ්වාසද?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

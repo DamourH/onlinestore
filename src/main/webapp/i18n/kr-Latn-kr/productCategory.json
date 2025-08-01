@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Jańa Product Category qosıw",
+        "createOrEditLabel": "Product Categorydi redaktorlaw",
+        "search": "Product Category izlew",
+        "notFound": "No Product Categories found"
+      },
+      "created": "Product Category {{ param }} menen qosıldı",
+      "updated": "{{ param }}- Product Category saqlandı",
+      "deleted": "{{ param }}- Product Category óshirildi",
+      "delete": {
+        "question": "{{ id }}- Product Category tı óshirejaqsizba?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

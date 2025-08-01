@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Order",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Product Order",
+        "createOrEditLabel": "Dodaj lub edytuj: Product Order",
+        "search": "Szukaj Product Order",
+        "notFound": "No Product Orders found"
+      },
+      "created": "Utworzono nowy obiekt typu Product Order z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Product Order z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Product Order z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Product Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

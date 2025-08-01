@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Product Order",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Product Order",
+        "search": "Գտնել Product Order",
+        "notFound": "No Product Orders found"
+      },
+      "created": "Նոր Product Order ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Product Order թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Product Order հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Product Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Product-ஐ உருவாக்கு",
+        "createOrEditLabel": "Product -ஐ மாற்று (அ) உருவாக்கு",
+        "search": "Search for Product",
+        "notFound": "No Products found"
+      },
+      "created": "Product புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Product மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Product நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Product {{ id }}?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

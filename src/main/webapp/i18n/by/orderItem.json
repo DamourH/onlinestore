@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Стварыць новы Order Item",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Order Item",
+        "search": "Знайсці Order Item",
+        "notFound": "No Order Items found"
+      },
+      "created": "Новы Order Item створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Order Item абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Order Item выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Order Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

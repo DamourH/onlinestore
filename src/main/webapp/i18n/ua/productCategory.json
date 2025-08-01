@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Створити новий Product Category",
+        "createOrEditLabel": "Створити чи редагувати Product Category",
+        "search": "Знайти Product Category",
+        "notFound": "No Product Categories found"
+      },
+      "created": "Новий Product Category створений з ідентифікатором {{ param }}",
+      "updated": "Product Category оновлений з ідентифікатором {{ param }}",
+      "deleted": "Product Category видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

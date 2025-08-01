@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "リストの更新",
+        "createLabel": "Customer の作成",
+        "createOrEditLabel": "Customerの作成または編集",
+        "search": "Customer の検索",
+        "notFound": "Customers が見つかりません。"
+      },
+      "created": "新しい Customer がID {{ param }} で作成されました。",
+      "updated": "ID {{ param }} の Customer が更新されました。",
+      "deleted": "ID {{ param }} の Customer が削除されました。",
+      "delete": {
+        "question": "Customer {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

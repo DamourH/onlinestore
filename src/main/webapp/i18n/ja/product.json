@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "リストの更新",
+        "createLabel": "Product の作成",
+        "createOrEditLabel": "Productの作成または編集",
+        "search": "Product の検索",
+        "notFound": "Products が見つかりません。"
+      },
+      "created": "新しい Product がID {{ param }} で作成されました。",
+      "updated": "ID {{ param }} の Product が更新されました。",
+      "deleted": "ID {{ param }} の Product が削除されました。",
+      "delete": {
+        "question": "Product {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

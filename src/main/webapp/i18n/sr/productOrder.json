@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreiraj novi Product Order",
+        "createOrEditLabel": "Kreirajte ili izmenite Product Order",
+        "search": "Potražite Product Order",
+        "notFound": "No Product Orders found"
+      },
+      "created": "Kreiran je novi Product Order pod nazivom {{ param }}",
+      "updated": "Product Order pod nazivom {{ param }} je ažuriran",
+      "deleted": "Product Order pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Product Order pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

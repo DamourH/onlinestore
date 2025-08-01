@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Siyahını yenilə",
+        "createLabel": "Yeni Invoice əlavə et",
+        "createOrEditLabel": "Yeni Invoice əlavə et və ya yenilə",
+        "search": "Invoice axtar",
+        "notFound": "Invoices məlumatı tapılmadı"
+      },
+      "created": "{{ param }} ID ilə bir Invoice əlavə edildi",
+      "updated": "{{ param }} nolu Invoice dəyişildi",
+      "deleted": "{{ param }} nolu Invoice silindi",
+      "delete": {
+        "question": "{{ id }} nolu Invoice silinəcək. Davam etmək istəyirsiniz?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

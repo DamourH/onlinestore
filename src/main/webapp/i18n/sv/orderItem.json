@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Order Item",
+        "createOrEditLabel": "Skapa eller ändra en Order Item",
+        "search": "Sök efter Order Item",
+        "notFound": "No Order Items found"
+      },
+      "created": "En ny Order Item är skapad med id {{ param }}",
+      "updated": "En Order Item är uppdaterad med id  {{ param }}",
+      "deleted": "En Order Item är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Order Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

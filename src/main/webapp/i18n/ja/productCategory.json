@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "ProductCategories",
+        "refreshListLabel": "リストの更新",
+        "createLabel": "Product Category の作成",
+        "createOrEditLabel": "Product Categoryの作成または編集",
+        "search": "Product Category の検索",
+        "notFound": "Product Categories が見つかりません。"
+      },
+      "created": "新しい Product Category がID {{ param }} で作成されました。",
+      "updated": "ID {{ param }} の Product Category が更新されました。",
+      "deleted": "ID {{ param }} の Product Category が削除されました。",
+      "delete": {
+        "question": "Product Category {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

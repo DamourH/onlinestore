@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Pridať Customer",
+        "createOrEditLabel": "Pridať alebo upraviť Customer",
+        "search": "Vyhľadať Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "Bol vytvorený potomok entity Customer s identifikátorom {{ param }}",
+      "updated": "Potomok entity Customer s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Customer s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

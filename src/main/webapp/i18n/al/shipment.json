@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Krijo një të ri Shipment",
+        "createOrEditLabel": "Krijo ose përpuno një Shipment",
+        "search": "Kërko për Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "Një Shipment i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Shipment u përpunua me identifikues {{ param }}",
+      "deleted": "Një Shipment u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

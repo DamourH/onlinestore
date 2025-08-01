@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Shipment létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Shipmentt",
+        "search": "Shipment keresése",
+        "notFound": "No Shipments found"
+      },
+      "created": "Egy új Shipment lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Shipment módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Shipment törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Shipmentt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

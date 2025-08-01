@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "创建新 Product",
+        "createOrEditLabel": "创建或编辑 Product",
+        "search": "查找 Product",
+        "notFound": "No Products found"
+      },
+      "created": "Product {{ param }} 创建成功",
+      "updated": "Product {{ param }} 更新成功",
+      "deleted": "Product {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Product {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

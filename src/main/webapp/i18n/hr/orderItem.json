@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreirati Order Item",
+        "createOrEditLabel": "Kreirati ili urediti Order Item",
+        "search": "Tražiti Order Item",
+        "notFound": "Nije nađeno Order Items"
+      },
+      "created": "Kreiran je Order Item sa identifikatorom {{ param }}",
+      "updated": "Ažuriran je Order Item sa identifikatorom {{ param }}",
+      "deleted": "Obrisan je Order Item sa identifikatorom {{ param }}",
+      "delete": {
+        "question": "Da li ste sigurni da želite obrisati Order Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

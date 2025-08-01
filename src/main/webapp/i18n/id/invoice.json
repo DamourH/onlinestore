@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Invoice baru",
+        "createOrEditLabel": "Buat atau edit Invoice",
+        "search": "Cari Invoice",
+        "notFound": "No Invoices found"
+      },
+      "created": "Invoice dengan id {{ param }} telah dibuat",
+      "updated": "Invoice dengan id {{ param }} telah diperbaharui",
+      "deleted": "Invoice dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Invoice {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

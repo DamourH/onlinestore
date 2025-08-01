@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Shipment",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Shipment",
+        "search": "Αναζήτηση για Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "Ένα νέο Shipment έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Shipment έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Shipment έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Shipment {{ id }};"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

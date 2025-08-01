@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Customer جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Customer",
+        "search": "البحث عن Customer",
+        "notFound": "لم يتم العثور على Customers"
+      },
+      "created": "Customer جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Customer تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Customer تم حذفه بالمعرف {{ param }}",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Customer {{ id }}؟"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

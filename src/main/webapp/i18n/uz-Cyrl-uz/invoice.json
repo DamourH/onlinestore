@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Янги Invoice қўшиш",
+        "createOrEditLabel": "Invoiceни таҳрирлаш",
+        "search": "Invoiceни излаш",
+        "notFound": "No Invoices found"
+      },
+      "created": "Invoice {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Invoice сақланди.",
+      "deleted": "{{ param }}- Invoice ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Invoiceни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

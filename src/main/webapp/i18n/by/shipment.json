@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Стварыць новы Shipment",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Shipment",
+        "search": "Знайсці Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "Новы Shipment створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Shipment абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Shipment выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

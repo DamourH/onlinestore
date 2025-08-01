@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Стварыць новы Invoice",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Invoice",
+        "search": "Знайсці Invoice",
+        "notFound": "No Invoices found"
+      },
+      "created": "Новы Invoice створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Invoice абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Invoice выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Invoice {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

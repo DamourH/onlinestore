@@ -41,6 +41,19 @@ public class CacheConfiguration {
             createCache(cm, com.mycompany.store.repository.UserRepository.USERS_BY_LOGIN_CACHE);
             createCache(cm, com.mycompany.store.repository.UserRepository.USERS_BY_EMAIL_CACHE);
             createCache(cm, com.mycompany.store.domain.Authority.class.getName());
+            createCache(cm, com.mycompany.store.domain.Product.class.getName());
+            createCache(cm, com.mycompany.store.domain.Product.class.getName() + ".productCategories");
+            createCache(cm, com.mycompany.store.domain.ProductCategory.class.getName());
+            createCache(cm, com.mycompany.store.domain.ProductCategory.class.getName() + ".products");
+            createCache(cm, com.mycompany.store.domain.Customer.class.getName());
+            createCache(cm, com.mycompany.store.domain.Customer.class.getName() + ".orders");
+            createCache(cm, com.mycompany.store.domain.ProductOrder.class.getName());
+            createCache(cm, com.mycompany.store.domain.ProductOrder.class.getName() + ".orderItems");
+            createCache(cm, com.mycompany.store.domain.ProductOrder.class.getName() + ".invoices");
+            createCache(cm, com.mycompany.store.domain.OrderItem.class.getName());
+            createCache(cm, com.mycompany.store.domain.Invoice.class.getName());
+            createCache(cm, com.mycompany.store.domain.Invoice.class.getName() + ".shipments");
+            createCache(cm, com.mycompany.store.domain.Shipment.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

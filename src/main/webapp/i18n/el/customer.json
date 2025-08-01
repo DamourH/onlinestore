@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Customer",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Customer",
+        "search": "Αναζήτηση για Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "Ένα νέο Customer έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Customer έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Customer έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Customer {{ id }};"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

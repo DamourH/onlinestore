@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Product Order",
+        "createOrEditLabel": "Vytvořit nebo upravit Product Order",
+        "search": "Vyhledat Product Order",
+        "notFound": "No Product Orders found"
+      },
+      "created": "Byl vytvořen potomek entity Product Order s identifikátorem {{ param }}",
+      "updated": "Potomek entity Product Order s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Product Order s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Product Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

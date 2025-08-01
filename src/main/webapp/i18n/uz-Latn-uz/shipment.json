@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Shipment qo`shish",
+        "createOrEditLabel": "Shipmentni tahrirlash",
+        "search": "Shipmentni izlash",
+        "notFound": "No Shipments found"
+      },
+      "created": "Shipment {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Shipment saqlandi",
+      "deleted": "{{ param }}- Shipment o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Shipmentni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

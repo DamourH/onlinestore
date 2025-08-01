@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Shipment",
+        "createOrEditLabel": "Luo tai muokkaa Shipment",
+        "search": "Etsi Shipment",
+        "notFound": "Shipment ei löytynyt"
+      },
+      "created": "Uusi Shipment on luotu, id: {{ param }}",
+      "updated": "Shipment on päivitetty, id: {{ param }}",
+      "deleted": "Shipment on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

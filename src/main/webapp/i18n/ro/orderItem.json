@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Order Item",
+        "createOrEditLabel": "Creeare sau editare Order Item",
+        "search": "Căutare după Order Item",
+        "notFound": "No Order Items found"
+      },
+      "created": "A fost creată o nouă entitate Order Item cu identificatorul {{ param }}",
+      "updated": "Order Item cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Order Item cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Order Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

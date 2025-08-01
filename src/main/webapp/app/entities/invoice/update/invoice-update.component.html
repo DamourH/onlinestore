@@ -1,0 +1,184 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <form name="editForm" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+      <h2 id="jhi-invoice-heading" data-cy="InvoiceCreateUpdateHeading" jhiTranslate="storeApp.invoice.home.createOrEditLabel">
+        Create or edit a Invoice
+      </h2>
+
+      <div>
+        <jhi-alert-error />
+
+        @if (editForm.controls.id.value !== null) {
+          <div class="mb-3">
+            <label class="form-label" for="field_id" jhiTranslate="storeApp.invoice.id">ID</label>
+            <input type="number" class="form-control" name="id" id="field_id" data-cy="id" formControlName="id" [readonly]="true" />
+          </div>
+        }
+
+        @let dateRef = editForm.get('date')!;
+        <div class="mb-3">
+          <label class="form-label" for="field_date" jhiTranslate="storeApp.invoice.date">Date</label>
+          <div class="d-flex">
+            <input
+              id="field_date"
+              data-cy="date"
+              type="datetime-local"
+              class="form-control"
+              name="date"
+              formControlName="date"
+              placeholder="YYYY-MM-DD HH:mm"
+            />
+          </div>
+          @if (dateRef.invalid && (dateRef.dirty || dateRef.touched)) {
+            <div>
+              @if (editForm.get('date')?.errors?.required) {
+                <small class="form-text text-danger" jhiTranslate="entity.validation.required">This field is required.</small>
+              }
+              <small
+                class="form-text text-danger"
+                [hidden]="!editForm.get('date')?.errors?.datetimelocal"
+                jhiTranslate="entity.validation.datetimelocal"
+                >This field should be a date and time.</small
+              >
+            </div>
+          }
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" for="field_details" jhiTranslate="storeApp.invoice.details">Details</label>
+          <input type="text" class="form-control" name="details" id="field_details" data-cy="details" formControlName="details" />
+        </div>
+
+        @let statusRef = editForm.get('status')!;
+        <div class="mb-3">
+          <label class="form-label" for="field_status" jhiTranslate="storeApp.invoice.status">Status</label>
+          <select class="form-control" name="status" formControlName="status" id="field_status" data-cy="status">
+            <option [ngValue]="null">{{ 'storeApp.InvoiceStatus.null' | translate }}</option>
+            @for (invoiceStatus of invoiceStatusValues; track $index) {
+              <option [value]="invoiceStatus">{{ 'storeApp.InvoiceStatus.' + invoiceStatus | translate }}</option>
+            }
+          </select>
+          @if (statusRef.invalid && (statusRef.dirty || statusRef.touched)) {
+            <div>
+              @if (editForm.get('status')?.errors?.required) {
+                <small class="form-text text-danger" jhiTranslate="entity.validation.required">This field is required.</small>
+              }
+            </div>
+          }
+        </div>
+
+        @let paymentMethodRef = editForm.get('paymentMethod')!;
+        <div class="mb-3">
+          <label class="form-label" for="field_paymentMethod" jhiTranslate="storeApp.invoice.paymentMethod">Payment Method</label>
+          <select
+            class="form-control"
+            name="paymentMethod"
+            formControlName="paymentMethod"
+            id="field_paymentMethod"
+            data-cy="paymentMethod"
+          >
+            <option [ngValue]="null">{{ 'storeApp.PaymentMethod.null' | translate }}</option>
+            @for (paymentMethod of paymentMethodValues; track $index) {
+              <option [value]="paymentMethod">{{ 'storeApp.PaymentMethod.' + paymentMethod | translate }}</option>
+            }
+          </select>
+          @if (paymentMethodRef.invalid && (paymentMethodRef.dirty || paymentMethodRef.touched)) {
+            <div>
+              @if (editForm.get('paymentMethod')?.errors?.required) {
+                <small class="form-text text-danger" jhiTranslate="entity.validation.required">This field is required.</small>
+              }
+            </div>
+          }
+        </div>
+
+        @let paymentDateRef = editForm.get('paymentDate')!;
+        <div class="mb-3">
+          <label class="form-label" for="field_paymentDate" jhiTranslate="storeApp.invoice.paymentDate">Payment Date</label>
+          <div class="d-flex">
+            <input
+              id="field_paymentDate"
+              data-cy="paymentDate"
+              type="datetime-local"
+              class="form-control"
+              name="paymentDate"
+              formControlName="paymentDate"
+              placeholder="YYYY-MM-DD HH:mm"
+            />
+          </div>
+          @if (paymentDateRef.invalid && (paymentDateRef.dirty || paymentDateRef.touched)) {
+            <div>
+              @if (editForm.get('paymentDate')?.errors?.required) {
+                <small class="form-text text-danger" jhiTranslate="entity.validation.required">This field is required.</small>
+              }
+              <small
+                class="form-text text-danger"
+                [hidden]="!editForm.get('paymentDate')?.errors?.datetimelocal"
+                jhiTranslate="entity.validation.datetimelocal"
+                >This field should be a date and time.</small
+              >
+            </div>
+          }
+        </div>
+
+        @let paymentAmountRef = editForm.get('paymentAmount')!;
+        <div class="mb-3">
+          <label class="form-label" for="field_paymentAmount" jhiTranslate="storeApp.invoice.paymentAmount">Payment Amount</label>
+          <input
+            type="number"
+            class="form-control"
+            name="paymentAmount"
+            id="field_paymentAmount"
+            data-cy="paymentAmount"
+            formControlName="paymentAmount"
+          />
+          @if (paymentAmountRef.invalid && (paymentAmountRef.dirty || paymentAmountRef.touched)) {
+            <div>
+              @if (editForm.get('paymentAmount')?.errors?.required) {
+                <small class="form-text text-danger" jhiTranslate="entity.validation.required">This field is required.</small>
+              }
+              <small
+                class="form-text text-danger"
+                [hidden]="!editForm.get('paymentAmount')?.errors?.number"
+                jhiTranslate="entity.validation.number"
+                >This field should be a number.</small
+              >
+            </div>
+          }
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" for="field_order" jhiTranslate="storeApp.invoice.order">Order</label>
+          <select
+            class="form-control"
+            id="field_order"
+            data-cy="order"
+            name="order"
+            formControlName="order"
+            [compareWith]="compareProductOrder"
+          >
+            <option [ngValue]="null"></option>
+            @for (productOrderOption of productOrdersSharedCollection; track $index) {
+              <option [ngValue]="productOrderOption">{{ productOrderOption.id }}</option>
+            }
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <button type="button" id="cancel-save" data-cy="entityCreateCancelButton" class="btn btn-secondary" (click)="previousState()">
+          <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+
+        <button
+          type="submit"
+          id="save-entity"
+          data-cy="entityCreateSaveButton"
+          [disabled]="editForm.invalid || isSaving"
+          class="btn btn-primary"
+        >
+          <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

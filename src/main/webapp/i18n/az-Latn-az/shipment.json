@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Siyahını yenilə",
+        "createLabel": "Yeni Shipment əlavə et",
+        "createOrEditLabel": "Yeni Shipment əlavə et və ya yenilə",
+        "search": "Shipment axtar",
+        "notFound": "Shipments məlumatı tapılmadı"
+      },
+      "created": "{{ param }} ID ilə bir Shipment əlavə edildi",
+      "updated": "{{ param }} nolu Shipment dəyişildi",
+      "deleted": "{{ param }} nolu Shipment silindi",
+      "delete": {
+        "question": "{{ id }} nolu Shipment silinəcək. Davam etmək istəyirsiniz?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

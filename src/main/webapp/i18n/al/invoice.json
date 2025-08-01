@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Krijo një të ri Invoice",
+        "createOrEditLabel": "Krijo ose përpuno një Invoice",
+        "search": "Kërko për Invoice",
+        "notFound": "No Invoices found"
+      },
+      "created": "Një Invoice i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Invoice u përpunua me identifikues {{ param }}",
+      "deleted": "Një Invoice u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Invoice {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Product Category",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Product Category",
+        "search": "Գտնել Product Category",
+        "notFound": "No Product Categories found"
+      },
+      "created": "Նոր Product Category ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Product Category թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Product Category հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

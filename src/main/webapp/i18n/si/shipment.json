@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "නව Shipment එකක් සාදන්න",
+        "createOrEditLabel": "Shipment සාදන්න හෝ සංස්කරණය කරන්න",
+        "search": "Shipment සඳහා සොයන්න",
+        "notFound": "Shipments හමු නොවීය"
+      },
+      "created": "{{ param }} හඳුනාගැනීමෙන් නව Shipment සාදනු ලැබේ",
+      "updated": "{{ param }} හඳුනාගැනීමෙන් Shipment යාවත්කාලීන වේ",
+      "deleted": "{{ param }} හඳුනාගැනීමෙන් Shipment මකා දමනු ලැබේ",
+      "delete": {
+        "question": "Shipment {{ id }} මකා දැමීමට ඔබට විශ්වාසද?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

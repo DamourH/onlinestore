@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Product",
+        "createOrEditLabel": "Creeare sau editare Product",
+        "search": "Căutare după Product",
+        "notFound": "No Products found"
+      },
+      "created": "A fost creată o nouă entitate Product cu identificatorul {{ param }}",
+      "updated": "Product cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Product cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Product {{ id }}?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

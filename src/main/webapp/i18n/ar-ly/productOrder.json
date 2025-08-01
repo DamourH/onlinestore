@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Product Order جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Product Order",
+        "search": "البحث عن Product Order",
+        "notFound": "لم يتم العثور على Product Orders"
+      },
+      "created": "Product Order جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Product Order تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Product Order تم حذفه بالمعرف {{ param }}",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Product Order {{ id }}؟"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

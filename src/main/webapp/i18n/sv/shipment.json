@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Shipment",
+        "createOrEditLabel": "Skapa eller ändra en Shipment",
+        "search": "Sök efter Shipment",
+        "notFound": "No Shipments found"
+      },
+      "created": "En ny Shipment är skapad med id {{ param }}",
+      "updated": "En Shipment är uppdaterad med id  {{ param }}",
+      "deleted": "En Shipment är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

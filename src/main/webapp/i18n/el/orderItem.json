@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Order Item",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Order Item",
+        "search": "Αναζήτηση για Order Item",
+        "notFound": "No Order Items found"
+      },
+      "created": "Ένα νέο Order Item έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Order Item έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Order Item έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Order Item {{ id }};"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

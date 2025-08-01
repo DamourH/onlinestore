@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Product Category erstellen",
+        "createOrEditLabel": "Product Category erstellen oder bearbeiten",
+        "search": "Suche nach Product Category",
+        "notFound": "Keine Product Categories gefunden"
+      },
+      "created": "Product Category erstellt mit ID {{ param }}",
+      "updated": "Product Category aktualisiert mit ID {{ param }}",
+      "deleted": "Product Category gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Product Category {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Product ekle",
+        "createOrEditLabel": "Yeni Product ekle veya guncelle",
+        "search": "Product ara",
+        "notFound": "Products kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Product eklendi",
+      "updated": "{{ param }} nolu Product guncellendi",
+      "deleted": "{{ param }} nolu Product silindi",
+      "delete": {
+        "question": "{{ id }} nolu Product silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

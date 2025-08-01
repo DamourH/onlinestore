@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Shipment جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Shipment",
+        "search": "البحث عن Shipment",
+        "notFound": "لم يتم العثور على Shipments"
+      },
+      "created": "Shipment جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Shipment تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Shipment تم حذفه بالمعرف {{ param }}",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Shipment {{ id }}؟"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

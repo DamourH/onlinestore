@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "නව Order Item එකක් සාදන්න",
+        "createOrEditLabel": "Order Item සාදන්න හෝ සංස්කරණය කරන්න",
+        "search": "Order Item සඳහා සොයන්න",
+        "notFound": "Order Items හමු නොවීය"
+      },
+      "created": "{{ param }} හඳුනාගැනීමෙන් නව Order Item සාදනු ලැබේ",
+      "updated": "{{ param }} හඳුනාගැනීමෙන් Order Item යාවත්කාලීන වේ",
+      "deleted": "{{ param }} හඳුනාගැනීමෙන් Order Item මකා දමනු ලැබේ",
+      "delete": {
+        "question": "Order Item {{ id }} මකා දැමීමට ඔබට විශ්වාසද?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

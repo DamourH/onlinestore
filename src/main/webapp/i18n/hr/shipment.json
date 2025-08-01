@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreirati Shipment",
+        "createOrEditLabel": "Kreirati ili urediti Shipment",
+        "search": "Tražiti Shipment",
+        "notFound": "Nije nađeno Shipments"
+      },
+      "created": "Kreiran je Shipment sa identifikatorom {{ param }}",
+      "updated": "Ažuriran je Shipment sa identifikatorom {{ param }}",
+      "deleted": "Obrisan je Shipment sa identifikatorom {{ param }}",
+      "delete": {
+        "question": "Da li ste sigurni da želite obrisati Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

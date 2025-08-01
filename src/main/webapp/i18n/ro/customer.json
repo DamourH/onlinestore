@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Creeare o nouă entitate Customer",
+        "createOrEditLabel": "Creeare sau editare Customer",
+        "search": "Căutare după Customer",
+        "notFound": "No Customers found"
+      },
+      "created": "A fost creată o nouă entitate Customer cu identificatorul {{ param }}",
+      "updated": "Customer cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Customer cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

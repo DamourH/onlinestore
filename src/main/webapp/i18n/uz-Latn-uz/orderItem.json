@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Yangi Order Item qo`shish",
+        "createOrEditLabel": "Order Itemni tahrirlash",
+        "search": "Order Itemni izlash",
+        "notFound": "No Order Items found"
+      },
+      "created": "Order Item {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Order Item saqlandi",
+      "deleted": "{{ param }}- Order Item o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Order Itemni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

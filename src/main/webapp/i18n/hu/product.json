@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Product létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Productt",
+        "search": "Product keresése",
+        "notFound": "No Products found"
+      },
+      "created": "Egy új Product lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Product módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Product törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Productt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

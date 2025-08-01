@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Invoice",
+        "createOrEditLabel": "Skapa eller ändra en Invoice",
+        "search": "Sök efter Invoice",
+        "notFound": "No Invoices found"
+      },
+      "created": "En ny Invoice är skapad med id {{ param }}",
+      "updated": "En Invoice är uppdaterad med id  {{ param }}",
+      "deleted": "En Invoice är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Invoice {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

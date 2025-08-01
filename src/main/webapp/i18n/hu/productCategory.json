@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "ProductCategories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Product Category létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Product Categoryt",
+        "search": "Product Category keresése",
+        "notFound": "No Product Categories found"
+      },
+      "created": "Egy új Product Category lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Product Category módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Product Category törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Product Categoryt {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

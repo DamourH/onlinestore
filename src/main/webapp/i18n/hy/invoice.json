@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Ստեղծել նոր Invoice",
+        "createOrEditLabel": "Ստեղծել կամ փոփոխել Invoice",
+        "search": "Գտնել Invoice",
+        "notFound": "No Invoices found"
+      },
+      "created": "Նոր Invoice ստեղծված է {{ param }} նունացուցիչով",
+      "updated": "Invoice թարմացվաց է {{ param }} նունացուցիչով",
+      "deleted": "Invoice հեռացված է {{ param }}  նունացուցիչով",
+      "delete": {
+        "question": "Դուք վստահ ե՞ք, որ ցանկանում եք հեռացնել Invoice {{ id }}?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

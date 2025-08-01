@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Vytvořit Product",
+        "createOrEditLabel": "Vytvořit nebo upravit Product",
+        "search": "Vyhledat Product",
+        "notFound": "No Products found"
+      },
+      "created": "Byl vytvořen potomek entity Product s identifikátorem {{ param }}",
+      "updated": "Potomek entity Product s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Product s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Product {{ id }}?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

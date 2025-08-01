@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Shipment",
+        "createOrEditLabel": "Lisa või muuda Shipment",
+        "search": "Otsi Shipment",
+        "notFound": "Ei leitud ühtegi Shipments"
+      },
+      "created": "Uus Shipment on loodud identifikaatoriga {{ param }}",
+      "updated": "Shipment identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Shipment identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

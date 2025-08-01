@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "නව Invoice එකක් සාදන්න",
+        "createOrEditLabel": "Invoice සාදන්න හෝ සංස්කරණය කරන්න",
+        "search": "Invoice සඳහා සොයන්න",
+        "notFound": "Invoices හමු නොවීය"
+      },
+      "created": "{{ param }} හඳුනාගැනීමෙන් නව Invoice සාදනු ලැබේ",
+      "updated": "{{ param }} හඳුනාගැනීමෙන් Invoice යාවත්කාලීන වේ",
+      "deleted": "{{ param }} හඳුනාගැනීමෙන් Invoice මකා දමනු ලැබේ",
+      "delete": {
+        "question": "Invoice {{ id }} මකා දැමීමට ඔබට විශ්වාසද?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

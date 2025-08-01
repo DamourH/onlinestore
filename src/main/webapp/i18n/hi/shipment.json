@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नया Shipment बनाएँ",
+        "createOrEditLabel": "Shipment बनाएँ या संपादित करें",
+        "search": "Shipment खोजें",
+        "notFound": "No Shipments found"
+      },
+      "created": "एक नया Shipment [identifier: {{ param }}] तैयार है",
+      "updated": "एक Shipment [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Shipment [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Shipment [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

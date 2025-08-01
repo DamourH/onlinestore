@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Invoice तयार करा",
+        "createOrEditLabel": "Invoice तयार किंवा संपादित करा",
+        "search": "Invoice शोधा",
+        "notFound": "No Invoices found"
+      },
+      "created": "Invoice [identifier: {{ param }}] तयार आहे",
+      "updated": "Invoice [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Invoice [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Invoice [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Egy új Invoice létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Invoicet",
+        "search": "Invoice keresése",
+        "notFound": "No Invoices found"
+      },
+      "created": "Egy új Invoice lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Invoice módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Invoice törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Invoicet {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "storeApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור חדש Customer",
+        "createOrEditLabel": "צור או ערוך Customer",
+        "search": "חפש Customer",
+        "notFound": "לא נמצאו Customers"
+      },
+      "created": "Customer חדש נוצר עם מזהה {{ param }}",
+      "updated": "Customer עודכן עם מזהה {{ param }}",
+      "deleted": "Customer נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "email": "Email",
+      "phone": "Phone",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "city": "City",
+      "country": "Country",
+      "user": "User",
+      "order": "Order"
+    }
+  }
+}

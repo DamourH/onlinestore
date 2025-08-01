@@ -1,0 +1,28 @@
+{
+  "storeApp": {
+    "shipment": {
+      "home": {
+        "title": "Shipments",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור חדש Shipment",
+        "createOrEditLabel": "צור או ערוך Shipment",
+        "search": "חפש Shipment",
+        "notFound": "לא נמצאו Shipments"
+      },
+      "created": "Shipment חדש נוצר עם מזהה {{ param }}",
+      "updated": "Shipment עודכן עם מזהה {{ param }}",
+      "deleted": "Shipment נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את Shipment {{ id }}?"
+      },
+      "detail": {
+        "title": "Shipment"
+      },
+      "id": "ID",
+      "trackingCode": "Tracking Code",
+      "date": "Date",
+      "details": "Details",
+      "invoice": "Invoice"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Product Order erstellen",
+        "createOrEditLabel": "Product Order erstellen oder bearbeiten",
+        "search": "Suche nach Product Order",
+        "notFound": "Keine Product Orders gefunden"
+      },
+      "created": "Product Order erstellt mit ID {{ param }}",
+      "updated": "Product Order aktualisiert mit ID {{ param }}",
+      "deleted": "Product Order gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Product Order {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

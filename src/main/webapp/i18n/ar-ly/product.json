@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "إنشاء Product جديد",
+        "createOrEditLabel": "إنشاء أو تعديل Product",
+        "search": "البحث عن Product",
+        "notFound": "لم يتم العثور على Products"
+      },
+      "created": "Product جديد تم إنشاؤه بالمعرف {{ param }}",
+      "updated": "Product تم تحديثه بالمعرف {{ param }}",
+      "deleted": "Product تم حذفه بالمعرف {{ param }}",
+      "delete": {
+        "question": "هل أنت متأكد أنك تريد حذف Product {{ id }}؟"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

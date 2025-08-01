@@ -1,0 +1,32 @@
+{
+  "storeApp": {
+    "invoice": {
+      "home": {
+        "title": "Invoices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Δημιουργήστε ένα νέο Invoice",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Invoice",
+        "search": "Αναζήτηση για Invoice",
+        "notFound": "No Invoices found"
+      },
+      "created": "Ένα νέο Invoice έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Invoice έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Invoice έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Invoice {{ id }};"
+      },
+      "detail": {
+        "title": "Invoice"
+      },
+      "id": "ID",
+      "date": "Date",
+      "details": "Details",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "paymentDate": "Payment Date",
+      "paymentAmount": "Payment Amount",
+      "shipment": "Shipment",
+      "order": "Order"
+    }
+  }
+}

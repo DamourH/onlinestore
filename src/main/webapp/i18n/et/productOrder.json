@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "productOrder": {
+      "home": {
+        "title": "Product Orders",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Product Order",
+        "createOrEditLabel": "Lisa või muuda Product Order",
+        "search": "Otsi Product Order",
+        "notFound": "Ei leitud ühtegi Product Orders"
+      },
+      "created": "Uus Product Order on loodud identifikaatoriga {{ param }}",
+      "updated": "Product Order identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Product Order identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Product Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Order"
+      },
+      "id": "ID",
+      "placedDate": "Placed Date",
+      "status": "Status",
+      "code": "Code",
+      "orderItem": "Order Item",
+      "invoice": "Invoice",
+      "customer": "Customer"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "storeApp": {
+    "productCategory": {
+      "home": {
+        "title": "Product Categories",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Product Category",
+        "createOrEditLabel": "Lisa või muuda Product Category",
+        "search": "Otsi Product Category",
+        "notFound": "Ei leitud ühtegi Product Categories"
+      },
+      "created": "Uus Product Category on loodud identifikaatoriga {{ param }}",
+      "updated": "Product Category identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Product Category identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Product Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Product Category"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "product": "Product"
+    }
+  }
+}

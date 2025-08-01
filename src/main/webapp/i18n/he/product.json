@@ -1,0 +1,30 @@
+{
+  "storeApp": {
+    "product": {
+      "home": {
+        "title": "Products",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור חדש Product",
+        "createOrEditLabel": "צור או ערוך Product",
+        "search": "חפש Product",
+        "notFound": "לא נמצאו Products"
+      },
+      "created": "Product חדש נוצר עם מזהה {{ param }}",
+      "updated": "Product עודכן עם מזהה {{ param }}",
+      "deleted": "Product נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את Product {{ id }}?"
+      },
+      "detail": {
+        "title": "Product"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "price": "Price",
+      "prosuctSize": "Prosuct Size",
+      "image": "Image",
+      "productCategory": "Product Category"
+    }
+  }
+}

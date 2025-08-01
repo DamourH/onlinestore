@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "רענן רשימה",
+        "createLabel": "צור חדש Order Item",
+        "createOrEditLabel": "צור או ערוך Order Item",
+        "search": "חפש Order Item",
+        "notFound": "לא נמצאו Order Items"
+      },
+      "created": "Order Item חדש נוצר עם מזהה {{ param }}",
+      "updated": "Order Item עודכן עם מזהה {{ param }}",
+      "deleted": "Order Item נמחק עם מזהה {{ param }}",
+      "delete": {
+        "question": "האם אתה בטוח שברצונך למחוק את Order Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}

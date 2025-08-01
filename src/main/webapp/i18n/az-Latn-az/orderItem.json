@@ -1,0 +1,29 @@
+{
+  "storeApp": {
+    "orderItem": {
+      "home": {
+        "title": "Order Items",
+        "refreshListLabel": "Siyahını yenilə",
+        "createLabel": "Yeni Order Item əlavə et",
+        "createOrEditLabel": "Yeni Order Item əlavə et və ya yenilə",
+        "search": "Order Item axtar",
+        "notFound": "Order Items məlumatı tapılmadı"
+      },
+      "created": "{{ param }} ID ilə bir Order Item əlavə edildi",
+      "updated": "{{ param }} nolu Order Item dəyişildi",
+      "deleted": "{{ param }} nolu Order Item silindi",
+      "delete": {
+        "question": "{{ id }} nolu Order Item silinəcək. Davam etmək istəyirsiniz?"
+      },
+      "detail": {
+        "title": "Order Item"
+      },
+      "id": "ID",
+      "quantity": "Quantity",
+      "totalPrice": "Total Price",
+      "status": "Status",
+      "product": "Product",
+      "order": "Order"
+    }
+  }
+}
