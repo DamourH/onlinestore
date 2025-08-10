@@ -21,8 +21,9 @@ node {
         sh "./gradlew npm_install -PnodeInstall --no-daemon"
     }
     stage('Install Snyk CLI') {
+
        sh """
-           curl -Lo ./snyk $(curl -s https://api.github.com/repos/snyk/snyk/releases/latest | grep "browser_download_url.*snyk-linux" | cut -d ':' -f 2,3 | tr -d \" | tr -d ' ')
+           echo \$5 curl -Lo ./snyk $(curl -s https://api.github.com/repos/snyk/snyk/releases/latest | grep "browser_download_url.*snyk-linux" | cut -d ':' -f 2,3 | tr -d \" | tr -d ' ')
            chmod +x snyk
        """
     }
