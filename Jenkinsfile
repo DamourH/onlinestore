@@ -13,25 +13,30 @@ node {
         sh "chmod +x gradlew"
         sh "./gradlew clean --no-daemon"
     }
-    stage('nohttp' ) {
+    
+    stage('nohttp') {
         sh "./gradlew checkstyleNohttp --no-daemon"
     }
 
-    stage('npm install' ) {
+    stage('npm install') {
         sh "./gradlew npm_install -PnodeInstall --no-daemon"
     }
+    
     stage('Install Snyk CLI') {
-       sh """
-           curl -Lo ./snyk $(curl -s https://api.github.com/repos/snyk/snyk/releases/latest | grep -E 'browser_download_url.*snyk-macos(-arm64)?' | cut -d '"' -f 4)
+       sh '''
+           curl -Lo ./snyk $(curl -s https://api.github.com/repos/snyk/snyk/releases/latest | grep -E "browser_download_url.*snyk-macos(-arm64)?" | cut -d \'"\' -f 4)
            chmod +x snyk
-       """
+       '''
     }
+    
     stage('Snyk test') {
        sh './snyk test --all-projects'
     }
+    
     stage('Snyk monitor') {
        sh './snyk monitor --all-projects'
     }
+    
     stage('backend tests') {
         try {
             sh "./gradlew test integrationTest -PnodeInstall --no-daemon"
