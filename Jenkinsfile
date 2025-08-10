@@ -22,7 +22,7 @@ node {
     }
     stage('Install Snyk CLI') {
        sh """
-           curl -Lo ./snyk \$(curl -s https://api.github.com/repos/snyk/snyk/releases/latest | grep "browser_download_url.*snyk-linux" | cut -d ':' -f 2,3 | tr -d \\" | tr -d ' ' )
+           curl -Lo ./snyk \$(curl -s https://api.github.com/repos/snyk/snyk/releases/latest | grep "browser_download_url.*snyk-macos" | cut -d ':' -f 2,3 | tr -d \\" | tr -d ' ' )
            chmod +x snyk
        """
     }
