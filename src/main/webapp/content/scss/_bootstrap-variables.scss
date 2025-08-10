@@ -34,3 +34,14 @@ $font-size-base: 1rem;
 
 $dropdown-link-hover-color: white;
 $dropdown-link-hover-bg: #343a40;
+.jh-entity-details dt {
+  font-weight: 600;
+}
+
+.jh-entity-details dd {
+  margin-bottom: 1rem;
+}
+
+a.text-white:hover {
+  text-decoration: underline;
+}

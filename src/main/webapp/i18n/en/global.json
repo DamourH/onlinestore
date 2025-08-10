@@ -14,7 +14,8 @@
         "productOrder": "Product Order",
         "orderItem": "Order Item",
         "invoice": "Invoice",
-        "shipment": "Shipment"
+        "shipment": "Shipment",
+         "adminAuthority": "Authority"
       },
       "account": {
         "main": "Account",

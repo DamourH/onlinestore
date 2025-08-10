@@ -1,71 +1,114 @@
-<div class="d-flex justify-content-center">
-  <div class="col-8">
+<div class="d-flex justify-content-center my-5">
+  <div class="col-md-8 p-4 shadow-sm rounded bg-white border">
     @if (product(); as productRef) {
       <div>
-        <h2 data-cy="productDetailsHeading"><span jhiTranslate="storeApp.product.detail.title">Product</span></h2>
+        <h2 class="mb-4 text-primary text-center" data-cy="productDetailsHeading">
+          <span jhiTranslate="storeApp.product.detail.title">Product</span>
+        </h2>
 
-        <hr />
+        <hr class="mb-4" />
 
-        <jhi-alert-error />
+        <jhi-alert-error class="mb-3" />
+        <jhi-alert class="mb-3" />
 
-        <jhi-alert />
-
-        <dl class="row-md jh-entity-details">
-          <dt><span jhiTranslate="global.field.id">ID</span></dt>
-          <dd>
+        <dl class="row jh-entity-details">
+          <dt class="col-sm-4 fw-semibold text-muted">
+            <span jhiTranslate="global.field.id">ID</span>
+          </dt>
+          <dd class="col-sm-8 mb-3">
             <span>{{ productRef.id }}</span>
           </dd>
-          <dt><span jhiTranslate="storeApp.product.name">Name</span></dt>
-          <dd>
+
+          <dt class="col-sm-4 fw-semibold text-muted">
+            <span jhiTranslate="storeApp.product.name">Name</span>
+          </dt>
+          <dd class="col-sm-8 mb-3">
             <span>{{ productRef.name }}</span>
           </dd>
-          <dt><span jhiTranslate="storeApp.product.description">Description</span></dt>
-          <dd>
+
+          <dt class="col-sm-4 fw-semibold text-muted">
+            <span jhiTranslate="storeApp.product.description">Description</span>
+          </dt>
+          <dd class="col-sm-8 mb-3">
             <span>{{ productRef.description }}</span>
           </dd>
-          <dt><span jhiTranslate="storeApp.product.price">Price</span></dt>
-          <dd>
-            <span>{{ productRef.price }}</span>
+
+          <dt class="col-sm-4 fw-semibold text-muted">
+            <span jhiTranslate="storeApp.product.price">Price</span>
+          </dt>
+          <dd class="col-sm-8 mb-3">
+            <span class="text-success fw-bold">{{ productRef.price | currency }}</span>
           </dd>
-          <dt><span jhiTranslate="storeApp.product.prosuctSize">Prosuct Size</span></dt>
-          <dd>
-            <span [jhiTranslate]="'storeApp.Size.' + (productRef.prosuctSize ?? 'null')">{{
-              { null: '', S: 'S', M: 'M', L: 'L', XL: 'XL', XXL: 'XXL' }[productRef.prosuctSize ?? 'null']
-            }}</span>
+
+          <dt class="col-sm-4 fw-semibold text-muted">
+            <span jhiTranslate="storeApp.product.prosuctSize">Prosuct Size</span>
+          </dt>
+          <dd class="col-sm-8 mb-3">
+            <span class="badge bg-info text-dark">
+              {{
+                { null: '', S: 'S', M: 'M', L: 'L', XL: 'XL', XXL: 'XXL' }[productRef.prosuctSize ?? 'null']
+              }}
+            </span>
           </dd>
-          <dt><span jhiTranslate="storeApp.product.image">Image</span></dt>
-          <dd>
+
+          <dt class="col-sm-4 fw-semibold text-muted">
+            <span jhiTranslate="storeApp.product.image">Image</span>
+          </dt>
+          <dd class="col-sm-8 mb-3">
             @if (productRef.image) {
-              <div>
-                <a (click)="openFile(productRef.image ?? '', productRef.imageContentType)">
+              <div class="d-flex flex-column gap-2">
+                <a (click)="openFile(productRef.image ?? '', productRef.imageContentType)" class="text-decoration-none">
                   <img
                     [src]="'data:' + productRef.imageContentType + ';base64,' + productRef.image"
-                    style="max-width: 100%"
+                    class="img-fluid border rounded shadow-sm"
                     alt="product"
+                    style="max-height: 300px"
                   />
                 </a>
-                {{ productRef.imageContentType }}, {{ byteSize(productRef.image ?? '') }}
+                <small class="text-muted">
+                  {{ productRef.imageContentType }}, {{ byteSize(productRef.image ?? '') }}
+                </small>
               </div>
             }
           </dd>
-          <dt><span jhiTranslate="storeApp.product.productCategory">Product Category</span></dt>
-          <dd>
+
+          <dt class="col-sm-4 fw-semibold text-muted">
+            <span jhiTranslate="storeApp.product.productCategory">Product Category</span>
+          </dt>
+          <dd class="col-sm-8 mb-3">
             @for (productCategory of productRef.productCategories; track $index; let last = $last) {
-              <span>
-                <a [routerLink]="['/product-category', productCategory.id, 'view']">{{ productCategory?.id }}</a
-                >{{ last ? '' : ', ' }}
+              <span class="badge bg-secondary me-1">
+                <a
+                  [routerLink]="['/product-category', productCategory.id, 'view']"
+                  class="text-white text-decoration-none"
+                >
+                  {{ productCategory?.id }}
+                </a>{{ last ? '' : '' }}
               </span>
             }
           </dd>
         </dl>
 
-        <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
-          <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
-        </button>
+        <div class="d-flex justify-content-between mt-4">
+          <button
+            type="submit"
+            (click)="previousState()"
+            class="btn btn-outline-secondary"
+            data-cy="entityDetailsBackButton"
+          >
+            <fa-icon icon="arrow-left"></fa-icon>&nbsp;
+            <span jhiTranslate="entity.action.back">Back</span>
+          </button>
 
-        <button type="button" [routerLink]="['/product', productRef.id, 'edit']" class="btn btn-primary">
-          <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
-        </button>
+          <button
+            type="button"
+            [routerLink]="['/product', productRef.id, 'edit']"
+            class="btn btn-primary"
+          >
+            <fa-icon icon="pencil-alt"></fa-icon>&nbsp;
+            <span jhiTranslate="entity.action.edit">Edit</span>
+          </button>
+        </div>
       </div>
     }
   </div>

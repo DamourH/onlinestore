@@ -150,3 +150,14 @@
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
+.jh-entity-details dt {
+  font-weight: 600;
+}
+
+.jh-entity-details dd {
+  margin-bottom: 1rem;
+}
+
+a.text-white:hover {
+  text-decoration: underline;
+}
